@@ -34,4 +34,19 @@ nav{
 
 .logoImg{
     margin: auto;
+
+    width: 2rem;
+    height: 2rem;
+}
+
+.themeSelector{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.75rem;
+}
+
+.themeChanger{
+    width: 1.75rem;
+    height: 1.75rem;
 }
