@@ -1,1 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto&display=swap');
+
+*{
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---Home section styling--- */
+#home{
+    background-color: #d7d5ff;
+
+    height: 100vh;
+}
+
+nav{
+    font-family: Oleo Script Swash Caps;
+    font-size: 1.25rem;
+}
+
+.brandArea{
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 0.625rem;
+
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.logoImg{
+    margin: auto;
+}
