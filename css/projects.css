@@ -16,8 +16,10 @@
     min-height: 100vh;
 }
 
-/* .projectSlide{
+.projectSlide{
     background-color: aqua;
+    margin: 1.25rem auto;
 
+    width: 90vw;
     height: 27.5rem;
-} */
+}
