@@ -1,5 +1,28 @@
+/* ---Importing fonts from google fonts--- */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto&display=swap');
 
+/* ---Imported fonts and their fallbacks--- */
+/* 
+    font-family: Lobster, cursive;
+    font-family: Oleo Script Swash Caps, cursive;
+    font-family: Roboto, sans-serif;
+*/
+
+
+/* ---Import home section styling--- */
+@import url('home.css');
+
+/* ---Import services section styling--- */
+@import url('services.css');
+
+/* ---Import projects section styling--- */
+@import url('projects.css');
+
+/* ---Import contact section styling--- */
+@import url('contact.css');
+
+
+/* ---General styling--- */
 *{
     font-family: Roboto, sans-serif;
     padding: 0;
@@ -12,113 +35,14 @@ body{
     padding: 0;
 }
 
-/* ---Home section styling--- */
-#home{
-    background-color: #d7d5ff;
-    display: flex;
-    flex-direction: column;
-
-    height: 100vh;
+a{
+    color: initial;
+    text-decoration: initial;
 }
 
-/* Navbar styling */
-nav{
-    font-family: Oleo Script Swash Caps;
-    font-size: 1.25rem;
-}
-
-.brandArea{
-    background-color: black;
-    border-radius: 50%;
-    display: flex;
-    margin-right: 0.625rem;
-
-    width: 3.125rem;
-    height: 3.125rem;
-}
-
-.logoImg{
-    margin: auto;
-
-    width: 2rem;
-    height: 2rem;
-}
-
-.themeSelector{
-    /* background-color: aqua; */
-    display: flex;
-    flex-direction: row;
-    margin-left: 0.75rem;
-}
-
-.themeChanger{
-    width: 1.75rem;
-    height: 1.75rem;
-}
-
-/* Home section styling */
-
-.mainIntro{
-    margin: auto;
-    
-    width: 98vw;
-}
-
-.slideBg{
-    margin: auto;
-
-    width: 41.67vw;
-}
-
-.firstCol{
-    /* background-color: blue; */
-    display: flex;
-}
-
-.slide{
-    margin: auto;
-}
-
-.secondCol{
-    /* background-color: azure; */
-    display: flex;
-    flex-direction: column;
-
-    width: 48vw;
-    height: 64vh;
-}
-
-.innerText{
-    /* background-color: antiquewhite; */
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-
-.salutations{
+.sectionTitle{
+    font-family: Oleo Script Swash Caps, cursive;
     font-size: 1.5rem;
-    margin: 0;
-}
-
-.skill{
-    font-size: 2.25rem;
-    margin: 0 0 2.5rem;
-}
-
-.prompt{
-    font-size: 1.125rem;
-    text-align: center;margin: 0;
-}
-
-.moreIconBtnArea{
-    margin: 1.5rem auto auto auto;
-    transform: rotate(90deg);
-    overflow: hidden;
-}
-
-.moreIcon{
-    overflow: hidden;
-
-    width: 3rem;
-    height: 3rem;
+    font-weight: bold;
+    text-align: center;
 }
