@@ -1,3 +1,10 @@
+/* ---Imported fonts and their fallbacks--- */
+/* 
+    font-family: Lobster, cursive;
+    font-family: Oleo Script Swash Caps, cursive;
+    font-family: Roboto, sans-serif;
+*/
+
 #services{
     background-color: #efeeff;
     display: flex;
@@ -6,11 +13,11 @@
     padding: 0;
 
     max-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .articleSection{
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: auto;
     padding: 0;
     
@@ -18,8 +25,49 @@
 }
 
 .articleBg{
-    background-color: beige;
+    /* background-color: beige; */
     overflow-x: hidden;
+}
+
+.article{
+    background-color: #d7d6e5;
+    border-top: #000 solid 0.625rem;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1.25rem auto 0;
+
+    width: 24rem;
+    height: 60vh;
+}
+
+.imgSection{
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    background-size: cover;
+
+    width: 100%;
+    height: 20.3125rem;
+}
+
+.codeImg{
+    background-image: url(../images/articleBg/code.jpg);
+}
+
+.designImg{
+    background-image: url(../images/articleBg/design.jpg);
+}
+
+.cgImg{
+    background-image: url(../images/articleBg/cgi.png);
+}
+
+.indicator{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 .conclusion{

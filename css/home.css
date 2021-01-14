@@ -1,3 +1,10 @@
+/* ---Imported fonts and their fallbacks--- */
+/* 
+    font-family: Lobster, cursive;
+    font-family: Oleo Script Swash Caps, cursive;
+    font-family: Roboto, sans-serif;
+*/
+
 /* ---Home section styling--- */
 #home{
     background-color: #d7d5ff;
@@ -10,7 +17,7 @@
 
 /* Navbar styling */
 nav{
-    font-family: Oleo Script Swash Caps;
+    font-family: Oleo Script Swash Caps, cursive;
     font-size: 1.25rem;
 }
 
@@ -24,11 +31,22 @@ nav{
     height: 3.125rem;
 }
 
+
 .logoImg{
     margin: auto;
 
     width: 2rem;
     height: 2rem;
+}
+
+.brandName{
+    font-family: Oleo Script Swash Caps, cursive;
+    font-size: 1.5rem;
+}
+
+.nav-link{
+    font-family: Lobster, cursive;
+    font-size: 1.25rem;
 }
 
 .themeSelector{
