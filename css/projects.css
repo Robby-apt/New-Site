@@ -17,20 +17,20 @@
 }
 
 .projectSlide{
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 1.25rem auto;
 
-    width: 84vw;
+    width: 80.5vw;
     height: 27.5rem;
 }
 
 .projectDetailSection{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
 }
 
 .projectDetails{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     margin: auto;
 }
 
@@ -87,9 +87,15 @@
     border-left: #fff solid 0.125rem;
 }
 
+.projectVisuals{
+    /* background-color: silver; */
+    padding: 0;
+}
+
 .projectImg{
     border-radius: 0.625rem;
-    opacity: 0.5;
+    margin: 0;
+    /* opacity: 0.5; */
 
     width: 56.25rem;
     height: 27.5rem;
