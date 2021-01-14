@@ -26,7 +26,8 @@
 
 .articleBg{
     /* background-color: beige; */
-    overflow-x: hidden;
+
+    height: 64vh;
 }
 
 .article{
@@ -35,6 +36,7 @@
     border-radius: 1.25rem;
     display: flex;
     flex-direction: column;
+    filter: drop-shadow(-0.625rem 0.625rem 0.25rem rgba(0, 0, 0, 0.25));
     margin: 1.25rem auto 0;
 
     width: 24rem;
@@ -46,6 +48,8 @@
     background-repeat: no-repeat;
     border-radius: 0.5rem;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 
     width: 100%;
     height: 20.3125rem;
@@ -66,8 +70,44 @@
 .indicator{
     background-color: #fff;
     border-radius: 50%;
+    margin: 0.625rem auto 0;
+
     width: 1.25rem;
     height: 1.25rem;
+}
+
+.articleTitle{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.titleBlack{
+    color: #000;
+}
+
+.firstLine{
+    margin:  1.25rem auto auto;
+    text-align: center;
+}
+
+.secondLine{
+    margin: auto;
+    text-align: center;
+}
+
+.btnLinkArea{
+    /* background-color: aqua; */
+    border: 0.125rem solid #000;
+    border-radius: 0.3125rem;
+    margin: auto auto 2.5rem;
+}
+
+.btnLink{
+    /* background-color: azure; */
+    margin: 0.3125rem 0.625rem;
 }
 
 .conclusion{
