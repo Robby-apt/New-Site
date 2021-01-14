@@ -1,3 +1,10 @@
+/* ---Imported fonts and their fallbacks--- */
+/* 
+    font-family: Lobster, cursive;
+    font-family: Oleo Script Swash Caps, cursive;
+    font-family: Roboto, sans-serif;
+*/
+
 #services{
     background-color: #efeeff;
     display: flex;
@@ -6,11 +13,11 @@
     padding: 0;
 
     max-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .articleSection{
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: auto;
     padding: 0;
     
@@ -18,8 +25,85 @@
 }
 
 .articleBg{
-    background-color: beige;
-    overflow-x: hidden;
+    /* background-color: beige; */
+
+    height: 64vh;
+}
+
+.article{
+    background-color: #d7d6e5;
+    border-top: #000 solid 0.625rem;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(-0.625rem 0.625rem 0.25rem rgba(0, 0, 0, 0.25));
+    margin: 1.25rem auto 0;
+
+    width: 24rem;
+    height: 60vh;
+}
+
+.imgSection{
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 20.3125rem;
+}
+
+.codeImg{
+    background-image: url(../images/articleBg/code.jpg);
+}
+
+.designImg{
+    background-image: url(../images/articleBg/design.jpg);
+}
+
+.cgImg{
+    background-image: url(../images/articleBg/cgi.png);
+}
+
+.indicator{
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0.625rem auto 0;
+
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.articleTitle{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.titleBlack{
+    color: #000;
+}
+
+.firstLine,
+.secondLine{
+    margin: auto;
+    text-align: center;
+}
+
+.btnLinkArea{
+    /* background-color: aqua; */
+    border: 0.125rem solid #000;
+    border-radius: 0.3125rem;
+    margin: auto auto 2.5rem;
+}
+
+.btnLink{
+    /* background-color: azure; */
+    margin: 0.3125rem 0.625rem;
 }
 
 .conclusion{
