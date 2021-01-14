@@ -5,4 +5,92 @@
     font-family: Roboto, sans-serif;
 */
 
-/* webAndUiand gallery sub id */
+/* webAndUi and gallery sub id */
+
+#projects{
+    background-color: #d7d5ff;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+.projectSlide{
+    background-color: aqua;
+    margin: 1.25rem auto;
+
+    width: 84vw;
+    height: 27.5rem;
+}
+
+.projectDetailSection{
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.projectDetails{
+    background-color: blueviolet;
+    margin: auto;
+}
+
+.projectName{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.projectDescription{
+    font-size: 1.125rem;
+    margin: 2.5rem 0;
+}
+
+.tagSection{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+}
+
+.tag{
+    background-color: #ecebf5;
+    border-radius: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.75rem;
+    
+    padding: 0.3125rem 0.625rem;
+}
+
+.viewBtnArea{
+    display: flex;
+    margin: 0;
+}
+
+.btnSection{
+    /* background-color: silver; */
+    display: flex;
+    margin: 2.5rem 0 0;
+}
+
+.viewBtn{
+    font-size: 1.125rem;
+    margin: 0;
+    padding: 0.3125rem 0.625rem;
+}
+
+.btnLightMode{
+    border-left: #000 solid 0.125rem;
+}
+
+.btnDarkMode{
+    border-left: #fff solid 0.125rem;
+}
+
+.projectImg{
+    border-radius: 0.625rem;
+    opacity: 0.5;
+
+    width: 56.25rem;
+    height: 27.5rem;
+}

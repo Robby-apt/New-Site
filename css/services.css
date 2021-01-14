@@ -88,7 +88,11 @@
     color: #000;
 }
 
-.firstLine,
+.firstLine{
+    margin:  1.25rem auto auto;
+    text-align: center;
+}
+
 .secondLine{
     margin: auto;
     text-align: center;
