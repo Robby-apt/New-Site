@@ -44,5 +44,14 @@ a{
     font-family: Oleo Script Swash Caps, cursive;
     font-size: 1.5rem;
     font-weight: bold;
+    margin: 0;
+    padding: 0.625rem 0 0 0;
+    text-align: center;
+}
+
+.sectionSubtitle{
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin: 1.25rem 0 0 0;
     text-align: center;
 }
