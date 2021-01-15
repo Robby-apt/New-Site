@@ -16,11 +16,25 @@
     min-height: 100vh;
 }
 
+.carouselBg{
+    /* background-color: aquamarine; */
+    display: flex;
+
+    width: 98vw;
+}
+
+.slideBgArea{
+    /* background-color: burlywood; */
+    margin: auto;
+
+    width: 84vw;
+}
+
 .projectSlide{
     /* background-color: aqua; */
     margin: 1.25rem auto;
 
-    width: 80.5vw;
+    width: 78vw;
     height: 27.5rem;
 }
 
