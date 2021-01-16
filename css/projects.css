@@ -110,8 +110,8 @@
     border-radius: 0.625rem;
     margin: 0;
 
-    width: 56.25rem;
-    height: 27.5rem;
+    width: 46.875vw;
+    height: 40.74vh;
 }
 
 /* 3D gallery section styling */
@@ -140,8 +140,8 @@
     border-radius: 0.625rem;
     margin: 1.25rem auto;
 
-    width: 56.25rem;
-    height: 27.5rem;
+    width: 46.875vw;
+    height: 40.74vh;
 }
 
 .galleryBtnArea{
