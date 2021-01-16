@@ -14,6 +14,7 @@
     min-height: 100vh;
 }
 
+/* Porject slideshow styling */
 .carouselBg{
     /* background-color: aquamarine; */
     display: flex;
@@ -113,6 +114,7 @@
     height: 27.5rem;
 }
 
+/* 3D gallery section styling */
 .gallerySection{
     /* background-color: aqua; */
     margin: 0 auto;
